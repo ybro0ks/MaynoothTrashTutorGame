@@ -1,30 +1,66 @@
-Project Overview: Maynooth University Trash Tutor Game
-The Maynooth University Trash Tutor Game is an educational application designed to teach users the principles of waste disposal in a fun and interactive manner. It is implemented using Processing, a flexible software sketchbook and a language for learning how to code within the context of the visual arts. This application combines graphical elements, animations, and a series of interactive challenges aimed at promoting sustainable behavior on campus.
+# Maynooth University Trash Tutor Game
 
-Features and Functionality
-Initial Setup
-Library Import: The application utilizes the GifAnimation library to work with GIF images for dynamic content.
-Image Loading: A variety of images are loaded, including logos, maps, and different trash items, which are integral to the visual experience.
-Font and Text: Custom fonts and text strings are initialized to create an engaging user interface.
-Game Mechanics
-Screens and Navigation: The game is structured into multiple screens, including introduction, gameplay levels, failure screens, and a completion screen. Navigation between these screens is controlled via key presses and mouse interactions.
+## Project Overview
 
-Gameplay Flow:
+The Trash Tutor Game is an educational application developed in Processing to teach users proper waste disposal through interactive gameplay. Designed for Maynooth University, the game promotes sustainable behavior using visual elements, animations, and user-driven challenges.
 
-Introduction Screens: Introduce users to the trash tutor, game objectives, and rules.
-Levels: Users are presented with trash items they must drag and drop into the correct bins. Successful sorting advances the player to the next level, while incorrect sorting results in reduced lives.
-Life and Score Management: The game tracks lives and scores, updating them based on the user's actions.
-Trash Sorting Challenges:
+---
 
-Dynamic Gameplay: Trash items are initialized and set to specific coordinates, where players drag items to designated bins.
-Score Tracking: Correct trash sorting increases the score. Incorrect actions decrease the player's lives.
-Graphics and Animations: The game uses static images and GIF animations for visual appeal, helping to represent character interactions and feedback during gameplay.
+## Features and Functionality
 
-User Interaction
-Mouse and Keyboard Input: The game reacts to mouse clicks and dragging, as well as key presses (e.g., pressing 'A' to advance screens), making the gameplay interactive and intuitive.
-Dynamic Feedback: Text updates, animations, and changes in visual elements provide feedback to users on their progress and actions.
-Educational Aspect
-Objective-Based Learning: Through trial and error, users learn correct trash disposal techniques, gaining knowledge about composting, recycling, and electronic waste management.
-Iterative Engagement: Allowing repetition with feedback ensures users understand disposal procedures and come away with sustainable practices knowledge.
-Conclusion
-The Maynooth University Trash Tutor Game provides an engaging and interactive way to educate users about waste disposal. Through its thoughtfully designed levels and responsive feedback systems, it emphasizes sustainability and proper trash management on a virtual campus setting. The integration of graphics, text, and animations makes learning enjoyable and effective.
+### Initial Setup
+
+- **Library Support**: Uses the `GifAnimation` library for GIF-based animations.
+- **Asset Loading**: Loads logos, campus maps, and various trash item images.
+- **Fonts and Text**: Custom fonts are initialized to build a clean, readable UI.
+
+---
+
+### Game Mechanics
+
+#### Screens and Navigation
+
+- Multiple game states: introduction, level screens, failure states, and a completion screen.
+- Navigation controlled by mouse input and key presses.
+
+#### Gameplay Flow
+
+- **Introduction**: Explains game goals, instructions, and controls.
+- **Levels**: Player drags and drops trash items into appropriate bins.
+  - Correct actions advance to the next level.
+  - Incorrect sorting decreases the player's lives.
+- **Scoring**:
+  - Correct sorting increases score.
+  - Mistakes reduce lives.
+- **Game End**: Triggered when all lives are lost or final level is completed.
+
+---
+
+### User Interaction
+
+- **Mouse Input**: Used to drag and drop items.
+- **Keyboard Input**: Key presses like 'A' are used to transition between screens.
+- **Feedback**: Visual and textual feedback informs users of correct or incorrect actions.
+
+---
+
+### Educational Focus
+
+- Reinforces composting, recycling, and electronic waste sorting.
+- Encourages trial and error learning with immediate feedback.
+- Aims to improve understanding of sustainable waste practices on campus.
+
+---
+
+## Technical Overview
+
+- **Platform**: Processing
+- **Animation Support**: GIFs integrated using `GifAnimation` library
+- **Graphics**: Static images and animated assets used for feedback and instruction
+- **Interaction**: Built-in input handling via Processing’s event functions
+
+---
+
+## Summary
+
+The Maynooth University Trash Tutor Game is a Processing-based application that blends education and interactivity. It guides users through a series of trash-sorting challenges while reinforcing sustainable behavior. The game structure, animations, and scoring logic ensure a user-friendly experience with an underlying educational goal.
